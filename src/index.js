@@ -1,5 +1,5 @@
 // Createing a class for adding inputs
-// require('./style.css');
+require('./style.css');
 
 // class BoardList {
 //   constructor(name, score) {
