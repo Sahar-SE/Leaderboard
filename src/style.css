@@ -1,5 +1,5 @@
 .mood {
-	display: flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -11,8 +11,8 @@ h1 {
 }
 
 label input {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
   margin: 12px 0;
   height: 30px;
   border-radius: 8px;
