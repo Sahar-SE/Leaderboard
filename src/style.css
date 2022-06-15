@@ -1,0 +1,34 @@
+.mood {
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+h1 {
+  color: blue;
+}
+
+label input {
+	display: flex;
+	flex-direction: column;
+  margin: 12px 0;
+  height: 30px;
+  border-radius: 8px;
+}
+
+fieldset {
+  border: 2px solid gray;
+  width: 40%;
+}
+
+table {
+  border: 1px solid gray;
+}
+
+table td {
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 15px;
+}
