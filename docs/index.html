@@ -1,59 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Leaderboard</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board - API</title>
+<script defer src="build.js"></script></head>
+
 <body>
-  <main>
-      <h1>Leader Board</h1>
-        <div class="mood">
-          <fieldset>
-            <legend>Scores<button>Refresh</button></legend>
-            <table>
-                <thead>
-                    <tr>
-                      <th>Name</th>
-                      <th>Score</th>
-                    </tr>
-                </thead>
-                <tbody id="playerList">
-                    <tr>
-                      <td>A</td>
-                      <td>100</td>
-                    </tr>
-                    <tr>
-                      <td>A</td>
-                      <td>100</td>
-                    </tr>
-                    <tr>
-                      <td>A</td>
-                      <td>100</td>
-                    </tr>
-                    <tr>
-                      <td>A</td>
-                      <td>100</td>
-                    </tr>
-                    <tr>
-                      <td>A</td>
-                      <td>100</td>
-                    </tr>
-                </tbody>
-            </table>
-            </fieldset>
-             <form action="">
-          <label>
-            <input type="text" name="user" id="name" placeholder="Enter Your Username">
-          </label>
-          <label>
-            <input type="number" name="score" id="num" placeholder="Enter Your Score">
-          </label>
-          <button id="btn">Submit</button>
-        </form>
-      </div>
+    <main>
+        <section id="leaderboard">
+            <h1>Leaderboard</h1>
+            <div class="score-body">
+                <article class="score-form">
+                    <div class="article-items heading">
+                        <h2>Recent Scores</h2>
+                        <button id="referesh-button" class="btn" type="button">Refresh</button>
+                    </div>
+                    <div id="loading-div" class="article-items loading">
+                        <p>Loading...</p>
+                    </div>
+                    <div id="scoreborad" class="article-items description">
+                        <ul id="score-list" class="score-list">
+                            <li class="score">
+                                <p>Press <b>Refresh</b> Button</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="score-form">
+                    <div class="article-items heading">
+                        <h2>Add Your Score</h2>
+                    </div>
+                    <div id="score-form" class="article-items">
+                        <form id="add-score-form" action="#" method="post">
+                            <input class="form-control" type="text" name="user" placeholder="Your Name" required >
+                            <input class="form-control" type="number" name="score" placeholder="Your Score" required min="0">
+                            <button id="score-submit" class="btn" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </article>
+            </div>
+
+        </section>
     </main>
-    <script type="module" src="./index.js"></script>
 </body>
+
 </html>
