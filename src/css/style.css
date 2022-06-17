@@ -5,19 +5,26 @@
   font-size: 18px;
 }
 
+body {
+  background-image: url('3026426.jpg');
+  background-position: 1500px 0;
+  }
+
 h1 {
   font-size: 55px;
+  color: darkred;
 }
 
 h2 {
   font-size: 35px;
+  color: darkred;
 }
 
 h1::after {
   content: '';
   height: 3px;
-  width: 150px;
-  background-color: #ccc;
+  width: 20%;
+  background-color: indianred;
   border: 1px solid black;
   border-radius: 32px;
   display: block;
@@ -27,9 +34,8 @@ h1::after {
 h2::after {
   content: "";
   height: 3px;
-  width: 35px;
-  background-color: #ccc;
-  border: 1px solid #ccc;
+  width: 50%;
+  background-color: indianred;
   border-radius: 32px;
   display: block;
   margin: 9px;
@@ -37,16 +43,23 @@ h2::after {
 
 li {
   list-style: none;
+  background-color: white;
+  border-radius: 0 10px 0 10px;
+  margin-top: 5px;
 }
 
 li:nth-child(even) {
-  background-color: #ccc;
+  background-color: indianred;
 }
 
 section {
   display: flex;
   flex-direction: column;
   padding: 60px;
+}
+
+p {
+  padding: 5px;
 }
 
 .score-body {
@@ -59,7 +72,7 @@ section {
 
 .loading {
   display: none;
-  color: green;
+  color: indianred;
   font-size: 21px;
   font-weight: 700;
 }
@@ -102,12 +115,14 @@ section {
 
 .btn {
   cursor: pointer;
+  color: white;
   padding: 3px;
   height: 35px;
   width: 85px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-shadow: 1px 2px 3px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 2px 3px indianred;
+  background-color: darkred;
 }
 
 .btn:active {
@@ -123,8 +138,10 @@ section {
 }
 
 .form-control {
-  height: 12px;
+  height: 20px;
   width: 95%;
   padding: 6px;
   margin: 9px auto;
+  border-radius: 8px;
+  border: none;
 }
