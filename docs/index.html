@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leader Board - API</title>
-<script defer src="build.js"></script></head>
+    <title>Game LeaderBoard</title>
+<script defer src="main.js"></script></head>
 
 <body>
     <main>
@@ -22,7 +22,7 @@
                         <p>Loading...</p>
                     </div>
                     <div id="scoreborad" class="article-items description">
-                        <ul id="score-list" class="score-list">
+                        <ul id="playerScore" class="playerscore">
                             <li class="score">
                                 <p>Press <b>Refresh</b> Button</p>
                             </li>
@@ -35,8 +35,8 @@
                     </div>
                     <div id="score-form" class="article-items">
                         <form id="add-score-form" action="#" method="post">
-                            <input class="form-control" type="text" name="user" placeholder="Your Name" required >
-                            <input class="form-control" type="number" name="score" placeholder="Your Score" required min="0">
+                            <input class="form-control" type="text" name="user" placeholder="Enter your name" required >
+                            <input class="form-control" type="number" name="score" placeholder="Enter your score" required min="0">
                             <button id="score-submit" class="btn" type="submit">Submit</button>
                         </form>
                     </div>

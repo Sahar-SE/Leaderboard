@@ -7,7 +7,7 @@
 
 body {
   background-image: url('3026426.jpg');
-  background-position: 1500px 0;
+  background-position: 1400px 0;
 }
 
 h1 {
@@ -138,7 +138,7 @@ p {
 }
 
 .form-control {
-  height: 20px;
+  height: 25px;
   width: 95%;
   padding: 6px;
   margin: 9px auto;
