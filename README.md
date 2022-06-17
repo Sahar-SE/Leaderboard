@@ -28,9 +28,6 @@ https://sahar-se.github.io/Leaderboard/
 # Contributing
 Contributions, issues, and feature requests are welcome!
 
-links
-The link of my Portfolio GitHub io is:
-
 # Acknowledgments
 .Hat tip to anyone who review my code and use it.
 .Inspiration
