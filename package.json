@@ -2,12 +2,12 @@
   "name": "leader-board-project-using-api-s",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ABDULALI3468/Leader-board-project-using-API-s.git"
+    "url": "git+https://github.com/Sahar-SE/Leader-board-project-using-API-s.git"
   },
   "bugs": {
-    "url": "https://github.com/ABDULALI3468/Leader-board-project-using-API-s/issues"
+    "url": "https://github.com/Sahar-SE/Leader-board-project-using-API-s/issues"
   },
-  "homepage": "https://github.com/ABDULALI3468/Leader-board-project-using-API-s#readme",
+  "homepage": "https://github.com/Sahar-SE/Leader-board-project-using-API-s#readme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
